@@ -24,15 +24,6 @@ def toys(w):
             a=a+1
     return a+1
     
-'''def toys(w):
-    w.sort()
-    temp = w[0]
-    count = 1
-    for i in w:
-        if i > temp + 4:
-            temp = i
-            count += 1
-    return count'''
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
