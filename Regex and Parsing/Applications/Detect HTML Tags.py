@@ -9,7 +9,7 @@ list = set()
 
 for _ in range(int(input())):
     _t = input()
-    found = re.findall(Regex, _t,re.DOTALL)
+    found = re.findall(Regex, _t)
     for tag in found:
         if tag not in list:
             list.add(tag)
