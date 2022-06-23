@@ -1,3 +1,6 @@
+# jon the string then serch for email
+
+
 import re
 N=int(input())
 myStr = " ".join([input() for i in range(N)])
