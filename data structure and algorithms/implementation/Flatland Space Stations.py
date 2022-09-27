@@ -11,6 +11,7 @@ def flatlandSpaceStations(n, c):
     c.sort()
     maxs = max(c[0],n-c[-1]-1)
     x = 0
+    # max distance always will be middle element of 2 number
     for i in range(len(c)-1):
         x=(c[i+1]-c[i])//2
         maxs = max(x,maxs)
