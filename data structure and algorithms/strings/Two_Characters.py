@@ -1,3 +1,4 @@
+from itertools import combinations
 def alternate(s):
     comb = combinations(set(s), 2)
     max_one = 0
